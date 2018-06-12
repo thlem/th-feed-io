@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+		<groupId>th.com</groupId>
+		<artifactId>th_root</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+  
+  <artifactId>th_api_client</artifactId>
+  
+  <packaging>jar</packaging>
+
+  <name>th_api_client</name>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <!-- The -source argument for the Java compiler -->
+		<maven.compiler.source>1.9</maven.compiler.source>
+
+		<!-- The -target argument for the Java compiler -->
+		<maven.compiler.target>1.9</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>th.com</groupId>
+      <artifactId>th_api_root</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+    	<groupId>th.com</groupId>
+    	<artifactId>th_data</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+</project>
